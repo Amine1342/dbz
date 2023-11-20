@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Freezer from "./Images/Freezer2.png";
+import broly from "./Images/Broly2.png";
 
-class Friezer extends Component {
+class Broly extends Component {
   state = {
     bg: "",
   };
@@ -16,10 +16,9 @@ class Friezer extends Component {
       <div className={`col ${this.state.bg}`}>
         <img
           onClick={this.handleClick}
-          src={Freezer}
-          alt="Freezer"
+          src={broly}
+          alt="Broly"
           className="img-fluid"
-          style={{ height: "250px" }}
         />
         <br />
       </div>
@@ -27,4 +26,4 @@ class Friezer extends Component {
   }
 }
 
-export default Friezer;
+export default Broly;
