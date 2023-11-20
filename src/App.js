@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="container text-center">
-        <h1 className="mt-3 mb-3 text-success">
+        <h1 className="mt-3 mb-5 text-success">
           Cliquez sur les bons personnages
         </h1>
 

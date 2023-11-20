@@ -19,6 +19,7 @@ class Broly extends Component {
           src={broly}
           alt="Broly"
           className="img-fluid"
+          style={{ height: "250px" }}
         />
         <br />
       </div>
